@@ -46,7 +46,7 @@ public class Ital {
     }
 
     public static double getÁrEuróban() {
-        return ár*323.737583;
+        return ár/323.737583;
     }
     
     @Override
