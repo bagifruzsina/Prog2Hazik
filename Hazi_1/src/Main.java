@@ -61,7 +61,12 @@ public class Main {
             
             
         System.out.println("\n4. feladat:");
-
+        Ital i1=new Ital("Coca-cola", "5");
+        Ital i2=new Ital("Coca-cola", "6");
+        Ital i3=new Ital("Pepsi", "2,5");
+        
+        Ital.setÁr(150);
+        System.out.println(Ital.getÁrEuróban());
         
         
         System.out.println("\n5. feladat:");
