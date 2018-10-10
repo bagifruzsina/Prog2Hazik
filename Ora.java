@@ -68,18 +68,14 @@ public class Ora {
     }
 
     @Override
-    public boolean equals(Object obj) {
-        if (obj == null) {
+        public boolean equals(Object obj) {
+        if(obj==null || !(obj instanceof Ora)) {
             return false;
         }
-        if (getClass() != obj.getClass()) {
-            return false;
-        }
-        final Ora other = (Ora) obj;
-        if (this.kezdet != other.kezdet) {
-            return false;
-        }
-        return true;
+        
+        Ora o=(Ora) obj;
+        return this.kezdet==o.getKezdet();
+   
     }
     
     
