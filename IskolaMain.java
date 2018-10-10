@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Fufella
  */
-public class Main {
+public class IskolaMain {
     
     
 	public static void main(String[] args) {
