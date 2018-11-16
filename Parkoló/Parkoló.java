@@ -63,6 +63,13 @@ public class Parkoló{
     public String toString() {
         return this.cím+": "+(this.kapacitás-this.rendszám)+" szabad hely";
     }
+    @Override
+    public int compareTo(Parkoló t) {
+        if(Integer.compare((this.kapacitás-this.rendszám), (t.kapacitás-t.rendszám))==0) {
+            return this.cím.compareTo(t.cím);
+        }
+        return -1*Integer.compare((this.kapacitás-this.rendszám), (t.kapacitás-t.rendszám));
+    }
 
    
     
