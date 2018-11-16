@@ -35,7 +35,7 @@ public class Teszt {
             sor=sc.nextLine();
             
         }
-        
+        Collections.sort(lista);
         for (Parkoló x : lista) {
             if(x.kapacitás-x.rendszám>3){
             System.out.println(x);
