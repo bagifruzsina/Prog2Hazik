@@ -11,10 +11,15 @@ package feladat1;
  */
 public class Gyumolcsle extends Ital{
     
-    
+    public Gyumolcsle(Gyumolcs gy) {
+    }
+
+   public String mibolFacsartak(){
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
 
     @Override
-    public String mibolKeszult() {
+    public String mibolKeszült() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
@@ -23,6 +28,10 @@ public class Gyumolcsle extends Ital{
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
+    @Override
+    public String toString() {
+        return "Gy\u00fcm\u00f6lcsl\u00e9{" + '}';
+    }
  
 
    
